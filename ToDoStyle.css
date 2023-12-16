@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EDEDED;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 15%;
+    background-color: #C2C2C2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.website-name {
+    color: #3B3B3B;
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Property Sidebar */
+
+.property-container {
+    width: 15%;
+    height: 100%;
+    background-color: #C2C2C2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prop-line {
+    margin-bottom: 10px;
+}
+
+.prop-line:not(:nth-child(1)) {
+    margin-top: 10px;
+}
+
+.elements-container, .style-container, .alignment-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.button-table {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-table .row1, .button-table .row2, .button-table .row3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #3B3B3B;
+}
+
+.elements-text, .style-text, .alignment-text {
+    color: #3B3B3B;
+    margin-bottom: 15px;
+}
+
+.btn-text {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3px;
+    line-height: 35px;
+    background-color: #D9D9D9;
+}
+
+.alignment-tools {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Note */
+
+.note-container {
+    width: 50%;
+    height: 70%;
+    background-color: #ffffff;
+}
+
+/* Notes */
+
+.notes-container {
+    width: 15%;
+    height: 100%;
+    background-color: #C2C2C2;
+}
